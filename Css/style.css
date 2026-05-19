@@ -447,7 +447,7 @@ img {
 /* <<<<<<<<<<<<<<<<<<custom-last-banner>>>>>>>>>> */
 .custom-last-banner {
     padding: 130px 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/lastbanner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/lastbanner.jpeg');
     background-size: cover;
     /* 🔥 important */
     background-position: right;
@@ -678,7 +678,7 @@ img {
 /* <<<<<<<<<<<<<<aboutus>>>>>>>>>>>>> */
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Images/future-tech/about-1.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/banner1.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -688,7 +688,7 @@ img {
 }
 
 .hero-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Images/future-tech/services.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/services.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -698,7 +698,7 @@ img {
 }
 
 .hero-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/Images/future-tech/contactus.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/contactus.jpeg') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -1012,12 +1012,13 @@ img {
     .pri-buton {
         background-color: var(--primary-color);
         color: var(--secondary-color) !important;
-        padding: 10px 30px;
+        padding: 5px 20px;
         border-radius: 10px;
         border: none;
         border: 1px solid var(--primary-color);
         font-weight: bold;
         font-size: 10px;
+      
     }
 
     .faq-area {
@@ -1052,14 +1053,23 @@ img {
         width: 25% !important;
     }
 
-    .custom-swiper .carousel-item img {
+    /* .custom-swiper .carousel-item img {
         height: 50vh;
+    } */
+
+    .custom-swiper .carousel-inner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: none;
+        z-index: 1;
     }
 
     .custom-swiper .carousel-caption {
         bottom: 25%;
         left: 15%;
         text-align: center !important;
+        display: none;
     }
 
     .custom-swiper .carousel-caption .btn {
@@ -1132,18 +1142,18 @@ img {
     }
 
     .hero {
-        height: 35vh;
+        height: 21vh;
         justify-content: center !important;
     }
 
     .hero-1 {
-        height: 35vh;
+        height: 21vh;
         justify-content: center !important;
 
     }
 
     .hero-2 {
-        height: 35vh;
+        height: 21vh;
         justify-content: center !important;
 
     }
