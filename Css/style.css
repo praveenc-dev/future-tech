@@ -688,7 +688,7 @@ img {
 }
 
 .hero-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/services.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/service-banner.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -698,7 +698,7 @@ img {
 }
 
 .hero-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/contactus.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/contactbanner.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
