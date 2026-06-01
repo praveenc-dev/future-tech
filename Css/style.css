@@ -200,6 +200,7 @@ button {
 .custom-swiper .carousel-item img {
     object-fit: cover;
     /* transition: transform 5s ease; */
+    height: 85vh;
 }
 
 /* 🔥 Zoom effect */
@@ -1165,4 +1166,9 @@ img {
     .design-right {
         margin-top: 10px;
     }
+
+    .custom-swiper .carousel-item img {
+    object-fit: contain;
+    height: 25vh;
+}
 }
