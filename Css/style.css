@@ -198,7 +198,7 @@ button {
 
 /* Images */
 .custom-swiper .carousel-item img {
-    object-fit: cover;
+    object-fit: fill;
     /* transition: transform 5s ease; */
     height: 85vh;
 }
@@ -274,8 +274,15 @@ button {
 
 .design-left img {
     width: 100%;
-    height: 480px;
+    height: 600px;
     object-fit: fill;
+}
+
+
+.design-lefts img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .design-right {
@@ -1019,7 +1026,7 @@ img {
         border: 1px solid var(--primary-color);
         font-weight: bold;
         font-size: 10px;
-      
+
     }
 
     .faq-area {
@@ -1168,7 +1175,7 @@ img {
     }
 
     .custom-swiper .carousel-item img {
-    object-fit: contain;
-    height: 25vh;
-}
+        object-fit: fill;
+        height: 24vh;
+    }
 }
