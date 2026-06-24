@@ -200,7 +200,7 @@ button {
 .custom-swiper .carousel-item img {
     object-fit: fill;
     /* transition: transform 5s ease; */
-    height: 85vh;
+    height: 100vh;
 }
 
 /* 🔥 Zoom effect */
@@ -686,8 +686,8 @@ img {
 /* <<<<<<<<<<<<<<aboutus>>>>>>>>>>>>> */
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/banner1.png') no-repeat center center/cover;
-    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Images/future-tech/img2/about\ us\ new\ img.png') no-repeat center center/cover;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
