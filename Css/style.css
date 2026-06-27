@@ -1178,4 +1178,15 @@ img {
         object-fit: fill;
         height: 24vh;
     }
+
+    .img-container{
+        width: 100% !important;
+        height: 400px !important;
+        position: relative;
+        background: #000;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
